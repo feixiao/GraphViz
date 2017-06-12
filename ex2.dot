@@ -1,0 +1,10 @@
+digraph abc{
+  a[shape="record"];
+  b;
+  c;
+  d[shape="cylinder"];
+
+  a -> b;
+  b -> d;
+  c -> d;
+}
