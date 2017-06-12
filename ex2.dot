@@ -1,8 +1,8 @@
 digraph abc{
-  a[shape="record"];
+  a[shape="box"];
   b;
   c;
-  d[shape="cylinder"];
+  d[shape="box3d"];
 
   a -> b;
   b -> d;

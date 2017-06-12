@@ -1,0 +1,12 @@
+digraph abc{
+  node [shape="record"];
+  edge [style="dashed"];
+  a[shape="box"];
+  b[style="filled", color="black", fillcolor="chartreuse"];
+  c;
+  d[shape="box3d"];
+
+  a -> b;
+  b -> d;
+  c -> d[color="red"];
+}

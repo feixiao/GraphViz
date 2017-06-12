@@ -75,11 +75,43 @@
   dot ex1.dot -o ex1.jpg -Tjpg
   ```
 
-  ​![1](./ex1.jpg)
+  ![1](./ex1.jpg)
 
 + 修改节点形状
 
-  ​
+  ```
+  digraph abc{
+    a[shape="box"];
+    b;
+    c;
+    d[shape="box3d"];
+
+    a -> b;
+    b -> d;
+    c -> d;
+  }
+  ```
+
+  ![1](./ex2.jpg)
+
++ 修改顶点和边样式
+
+  ```
+  digraph abc{
+    node [shape="record"];
+    edge [style="dashed"];
+    a[shape="box"];
+    b[style="filled", color="black", fillcolor="chartreuse"];
+    c;
+    d[shape="box3d"];
+
+    a -> b;
+    b -> d;
+    c -> d[color="red"];
+  }
+  ```
+
+  ![1](./ex3.jpg)
 
 #### 参考资料
 
