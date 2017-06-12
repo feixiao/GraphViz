@@ -15,7 +15,7 @@ digraph neighbourhood{
     localmatters -> fast [label="do search"];
     fast -> localmatters [label="response"];
     localmatters -> syndication [label="convert fast result to json"];
-    syndication -> app ["mapping"];
+    // syndication -> app ["mapping"];
 
     app -> gmap [label="request maps info"];
     gmap -> app [label="response maps info"];

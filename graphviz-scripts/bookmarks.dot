@@ -1,5 +1,5 @@
 digraph G{
-  node [ shape = "record", fontname = "Open Sans", fontsize = 16, \
+  node [ shape = "record", fontname = "Open Sans", fontsize = 16, 
   fontcolor="#ffffff", style="filled", color="#1FB6C3", fillcolor="#1FB6C3bf"];
   edge [ fontname = "Open Sans", fontsize = 16,
   color="#1FB6C3", fontcolor="#1FB6C3" ];
