@@ -1,0 +1,5 @@
+*.swp
+*.png
+*.jpg
+.DS_Store
+*.pdf
