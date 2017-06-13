@@ -53,6 +53,8 @@
 
 #### 例子
 
+##### [DotEditor](http://vincenthee.github.io/DotEditor/) 使用dot的绘图工具。
+
 + 要绘制一个有向图，包含4个节点`a,b,c,d`。其中`a`指向`b`，`b`和`c`指向`d`
 
   ```
