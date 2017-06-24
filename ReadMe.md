@@ -1,5 +1,7 @@
 ## Graphviz快速入门
 
+#### 注： 推荐[yEd Graph Editor](http://www.yworks.com/products/yed) 一个跨平台的绘图工具，比自己用dot绘图方便。[下载地址](http://www.yworks.com/downloads#yEd)
+
 #### graphviz简介
 
 ​	本文介绍一个高效而简洁的绘图工具`graphviz`。`graphviz`是贝尔实验室开发的一个开源的工具包，它使用一个特定的`DSL`(领域特定语言): `dot`作为脚本语言，然后使用布局引擎来解析此脚本，并完成自动局。`graphviz`提供丰富的导出格式，如常用的图片格式，SVG，PDF格式等。
